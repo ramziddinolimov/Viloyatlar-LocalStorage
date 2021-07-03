@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 // const DATA = [
 //     {
 //      name: "Xudoyorxon saroyi",
@@ -26,6 +27,9 @@
 
 
    let data = JSON.parse(localStorage.getItem('data')) || []
+=======
+let data = JSON.parse(localStorage.getItem('data')) || []
+>>>>>>> 4028e13593dc9d6a4861477abb95b103d2655408
 
 
 data.forEach(value => {
@@ -82,6 +86,7 @@ let regions = document.querySelector("#regions")
 let cities = document.querySelector("#cities")
 
 let city = {
+<<<<<<< HEAD
     "Tashkent": ['city1', 'city2', 'city3', 'city4'],
     "Tashkent region": ['city1', 'city2', 'city3', 'city4', 'city5', 'city6', 'city7'],
     "Samarkand": ['city1'],
@@ -94,6 +99,20 @@ let city = {
     "Bukhara": ['city1', 'city2', 'city3', 'city4'],
     "Andijan": ['city1', 'city2', 'city3', 'city4'],
     "Karakalpakstan": ['city1', 'city2', 'city3', 'city4']
+=======
+    "Tashkent": ['Chilonzor Tumani', 'Yunusobod Tumani', 'Shayxontohur Tumani', 'Olmazor Tumani'],
+    "Tashkent region": ['Bekobod Tumani', 'Zangiota Tumani', 'Qibray Tumani'],
+    "Samarkand": ['Ishtixon Tumani', 'Jomboy Tumani', 'Narpay Tumani'],
+    "Qashqadaryo": ['Qarshi Tumani', 'Kitob Tumani', 'Shahrisabz Tumani'],
+    "Navoiy": ['Qiziltepa Tumani', 'Zarafshon Tumani', 'Nurota Tumani'],
+    "Namangan": ['Chortoq Tumani', 'Kosonsoy Tumani'],
+    "Xorazm": ['Xiva Tumani', 'Shovot Tumani'],
+    "Jizzakh": ['Dostlik Tumani', 'Paxtakor Tumani', 'Zomin Tumani'],
+    "Fergana": ['Oltiariq Tumani', 'Beshariq Tumani'],
+    "Bukhara": ['Olot Tumani', 'Kogon Tumani', 'Vobkent Tumani', 'Gijduvon Tumani'],
+    "Andijan": ['Asaka Tumani', 'Marhamat Tumani'],
+    "Karakalpakstan": ['Amudaryo Tumani', 'Beruniy Tumani']
+>>>>>>> 4028e13593dc9d6a4861477abb95b103d2655408
 }
 
 regions.addEventListener('change', () => {
@@ -113,8 +132,11 @@ regions.addEventListener('change', () => {
 
 
 
+<<<<<<< HEAD
 
 
 
 
   
+=======
+>>>>>>> 4028e13593dc9d6a4861477abb95b103d2655408
